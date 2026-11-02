@@ -17,7 +17,10 @@
 extern "C" {
 #endif
 
-void hello() {
+void star_zen();
+
+#define STAR_ARENA_IMPLEMENTATION
+void star_zen() {
     printf("Who's ready to get technical and reliable?\n");
 }
 
