@@ -21,7 +21,10 @@ void star_zen();
 
 #define STAR_ARENA_IMPLEMENTATION
 void star_zen() {
-    printf("Who's ready to get technical and reliable?\n");
+    printf("Strive for elegance, for order and precision.\n");
+    printf("Strive for glory, for fame and MAANG internships.\n");
+    printf("Whatever the ambition, whatever the prize,\n");
+    printf("All must encompass two core values.\n Who's ready to get technical and reliable?\n");
 }
 
 #ifdef __cplusplus
