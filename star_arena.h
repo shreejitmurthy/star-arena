@@ -12,18 +12,23 @@
 #define STAR_ARENA_H
 
 #include <stdio.h>
+#include <stdalign.h>
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
+// Bump Allocator
+typedef struct star_arena_t {
+    size_t __capacity;
+    size_t __offset;
+    char* __buffer;
+};
+
 void star_zen();
 
 #define STAR_ARENA_IMPLEMENTATION
 void star_zen() {
-    printf("Strive for elegance, for order and precision.\n");
-    printf("Strive for glory, for fame and MAANG internships.\n");
-    printf("Whatever the ambition, whatever the prize,\n");
     printf("All must encompass two core values.\n Who's ready to get technical and reliable?\n");
 }
 
